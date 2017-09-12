@@ -1070,7 +1070,7 @@ ALTER TABLE `cmf_admin_menu` CHANGE `list_order` `list_order` FLOAT NOT NULL DEF
 ALTER TABLE `cmf_user` ADD `more` TEXT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL COMMENT '扩展属性' AFTER `mobile`;
 
 -- 2017-09-07 14:03 增加after_content钩子
-INSERT INTO `cmf_hook` ( `hook`, `type`, `once`, `name`, `description`) VALUES ( 'after_content', '3', '0', '主要内容之后', '主要内容之后');
+-- INSERT INTO `cmf_hook` ( `hook`, `type`, `once`, `name`, `description`) VALUES ( 'after_content', '3', '0', '主要内容之后', '主要内容之后');
 
 
 -- 2017-09-12 12:38 更改字段长度
